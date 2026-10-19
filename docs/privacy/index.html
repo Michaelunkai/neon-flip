@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Neon Flip</title>
+<meta name="description" content="Privacy policy for Neon Flip, the one-touch gravity-flip neon arcade runner by Michael Unkai.">
+<style>
+  :root{
+    --bg:#0a0a14; --bg2:#101024; --card:#14142b; --line:#26264d;
+    --neon:#00f0ff; --neon2:#ff2bd6; --neon3:#b96bff; --txt:#e8e8ff; --dim:#9d9dc4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg); color:var(--txt);
+    font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.7; min-height:100vh;
+  }
+  .glow-bg{position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:
+      radial-gradient(600px 400px at 15% 0%, rgba(0,240,255,.10), transparent 60%),
+      radial-gradient(700px 500px at 90% 100%, rgba(255,43,214,.09), transparent 60%),
+      radial-gradient(500px 400px at 60% 40%, rgba(185,107,255,.07), transparent 60%);
+  }
+  main{position:relative;z-index:1;max-width:860px;margin:0 auto;padding:48px 22px 80px}
+  header.hero{text-align:center;margin-bottom:44px}
+  .logo{font-size:15px;letter-spacing:.35em;text-transform:uppercase;color:var(--dim)}
+  h1{
+    margin:10px 0 6px;font-size:clamp(30px,6vw,46px);font-weight:800;letter-spacing:1px;
+    background:linear-gradient(90deg,var(--neon),var(--neon2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    text-shadow:0 0 40px rgba(0,240,255,.18);
+  }
+  .updated{color:var(--dim);font-size:14px}
+  .updated b{color:var(--neon)}
+  .card{
+    background:linear-gradient(180deg,var(--card),var(--bg2));
+    border:1px solid var(--line); border-radius:16px;
+    padding:26px 26px 22px; margin-bottom:22px;
+    box-shadow:0 0 0 1px rgba(0,240,255,.03), 0 12px 40px rgba(0,0,0,.45);
+  }
+  h2{
+    font-size:20px;margin-bottom:12px;letter-spacing:.5px;
+    color:var(--neon); text-shadow:0 0 14px rgba(0,240,255,.45);
+    display:flex;align-items:center;gap:10px;
+  }
+  h2::before{content:"";width:10px;height:10px;border-radius:3px;flex:0 0 auto;
+    background:linear-gradient(135deg,var(--neon),var(--neon2));box-shadow:0 0 10px var(--neon)}
+  p,li{color:var(--txt);font-size:15.5px}
+  ul{margin:8px 0 0 20px}
+  li{margin-bottom:7px}
+  a{color:var(--neon);text-decoration:none;border-bottom:1px dotted rgba(0,240,255,.5)}
+  a:hover{border-bottom-style:solid}
+  b,strong{color:#fff}
+  .pill{display:inline-block;font-size:12.5px;letter-spacing:.4px;padding:3px 12px;margin:2px 6px 2px 0;
+    border:1px solid var(--line);border-radius:999px;color:var(--dim);background:rgba(255,255,255,.02)}
+  .pill.yes{color:#7dffc8;border-color:rgba(125,255,200,.35)}
+  .pill.no{color:#ff8bb3;border-color:rgba(255,139,179,.35)}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+  th{color:var(--neon3);font-weight:600;background:rgba(185,107,255,.06)}
+  td{color:var(--txt)}
+  .note{margin-top:12px;padding:12px 16px;border-left:3px solid var(--neon);
+    background:rgba(0,240,255,.05);border-radius:0 10px 10px 0;color:var(--dim);font-size:14.5px}
+  .contact{
+    text-align:center;border:1px solid rgba(0,240,255,.25);border-radius:16px;
+    background:linear-gradient(180deg,rgba(0,240,255,.06),rgba(255,43,214,.05));
+  }
+  .contact .mail{font-size:18px;font-weight:700}
+  footer{margin-top:34px;text-align:center;color:var(--dim);font-size:13px}
+  footer .brand{color:var(--neon);letter-spacing:.25em;text-transform:uppercase}
+  @media(max-width:560px){ .card{padding:20px 16px} th,td{padding:7px 8px;font-size:13.5px} }
+</style>
+</head>
+<body>
+<div class="glow-bg"></div>
+<main>
+
+  <header class="hero">
+    <div class="logo">Neon Flip</div>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: <b>October 19, 2026</b> · Version 1.0.0</div>
+  </header>
+
+  <section class="card">
+    <h2>1. The short version</h2>
+    <p>Neon Flip is a one-touch arcade game. We designed it so it collects as little as possible:</p>
+    <ul>
+      <li><span class="pill no">No account</span><span class="pill no">No name</span><span class="pill no">No email</span><span class="pill no">No location</span><span class="pill no">No contacts</span></li>
+      <li><span class="pill yes">Your scores &amp; settings stay on your device</span></li>
+      <li><span class="pill yes">Ads are served by Google AdMob</span> — it uses your device's advertising ID (see §3)</li>
+    </ul>
+    <p>The full details follow, in plain language.</p>
+  </section>
+
+  <section class="card">
+    <h2>2. About Neon Flip</h2>
+    <p>Neon Flip ("the game", "we") is a free arcade runner for Android, published by Michael Unkai. You tap to flip gravity, dodge neon obstacles and chase high scores. The game is free, supported by advertising, and offers optional purchases (remove ads, VIP badge).</p>
+  </section>
+
+  <section class="card">
+    <h2>3. Data we and our partners handle</h2>
+    <table>
+      <tr><th>Data</th><th>Who</th><th>Why</th><th>Leaves your device?</th></tr>
+      <tr>
+        <td><b>Advertising ID</b> and ad-related device data (e.g. approximate country derived from IP, device model, app interactions with ads)</td>
+        <td>Google AdMob</td>
+        <td>Serving ads, frequency capping, fraud prevention; personalized only where you allow it</td>
+        <td><b>Yes</b> — to Google (ad partner) over encrypted connections</td>
+      </tr>
+      <tr>
+        <td><b>Game progress</b>: scores, best runs, coins, skins, settings</td>
+        <td>Stored locally on your device only</td>
+        <td>Your high scores and preferences</td>
+        <td><b>No</b> — never transmitted in v1.0.0. We have no game servers.</td>
+      </tr>
+      <tr>
+        <td><b>Purchase state</b> (did you buy "remove ads" / is VIP active)</td>
+        <td>Google Play Billing</td>
+        <td>Unlocking what you paid for</td>
+        <td>Handled by Google Play. <b>We never see</b> your name, card number, or billing address.</td>
+      </tr>
+    </table>
+    <div class="note">We do not sell your personal data. The advertising ID is shared only with our ad partner (Google AdMob) for ad serving. If you reset or delete your advertising ID in Android settings (Settings → Privacy → Ads), ads become non-personalized.</div>
+  </section>
+
+  <section class="card">
+    <h2>4. Analytics (local only)</h2>
+    <p>Any analytics or crash information in Neon Flip v1.0.0 is <b>local-only</b>: it stays on your device and is never uploaded anywhere. We plan to keep it that way; if this ever changes, we will update this policy and the Play Store Data Safety form before it does.</p>
+  </section>
+
+  <section class="card">
+    <h2>5. Permissions</h2>
+    <table>
+      <tr><th>Permission</th><th>Why it is needed</th></tr>
+      <tr><td><code>INTERNET</code></td><td>Ads and Google Play Billing require network access. The core game itself works fully offline.</td></tr>
+      <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>To know whether ads can be fetched, and to keep the game playable when offline.</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Optional, only where Android requires it (e.g. Android 13+). The game works fine if you decline.</td></tr>
+      <tr><td><code>com.android.vending.BILLING</code></td><td>For the optional in-app purchase (remove ads) and VIP subscription, processed entirely by Google Play.</td></tr>
+    </table>
+    <p>We never request access to your camera, microphone, files, contacts, or precise location.</p>
+  </section>
+
+  <section class="card">
+    <h2>6. Ads — Google AdMob</h2>
+    <p>Neon Flip shows banner, interstitial, and <b>optional</b> rewarded video ads through <b>Google AdMob</b> (Google Ireland/Google LLC). Google's own privacy policy explains how it uses this data: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+    <ul>
+      <li>Rewarded ads always require your tap — they are never forced.</li>
+      <li>You can opt out of ad personalization in <b>Android Settings → Privacy → Ads</b> (delete/reset advertising ID).</li>
+      <li>Manage Google ad settings at <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>7. Purchases</h2>
+    <p>Optional purchases (one-time "remove ads", optional VIP subscription) are processed exclusively by <b>Google Play Billing</b>. We never receive or store payment details. Payments, refunds, and subscriptions are governed by <a href="https://play.google.com/terms" rel="noopener">Google Play's terms</a>. You can cancel the VIP subscription anytime via Google Play → Profile → Payments &amp; subscriptions.</p>
+  </section>
+
+  <section class="card">
+    <h2>8. Children's privacy</h2>
+    <p>Neon Flip is <b>not directed at children under 13</b>. We do not knowingly collect personal information from anyone — including children — because the app has no accounts, no registration, and no analytics upload. If you believe a child under 13 has provided us with personal information, contact us and we will delete it promptly.</p>
+  </section>
+
+  <section class="card">
+    <h2>9. Data retention &amp; deletion</h2>
+    <ul>
+      <li><b>On-device data</b> (scores, settings, progress): delete by uninstalling the app or via Android Settings → Apps → Neon Flip → Storage → Clear data. Nothing remains on our side, because we never received it.</li>
+      <li><b>Ad data</b>: controlled by Google — reset your advertising ID in Android settings or use your <a href="https://myaccount.google.com" rel="noopener">Google Account</a> privacy controls.</li>
+      <li><b>Deletion requests</b>: email <a href="mailto:michaelunkai@gmail.com">michaelunkai@gmail.com</a> and we will respond within 30 days.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>10. Security &amp; your rights</h2>
+    <p>Network communication (ads, billing) is encrypted in transit (TLS). Because we hold no personal databases, the main practical protection is that your data simply stays with you. Where applicable law grants rights (access, correction, deletion, objection), you can exercise them by contacting us — or, for most data, by using your device and Google account controls, since that is where the data lives.</p>
+  </section>
+
+  <section class="card">
+    <h2>11. Changes to this policy</h2>
+    <p>If we change how Neon Flip handles data, we will update this page and change the "last updated" date, and update the Google Play Data Safety form accordingly.</p>
+  </section>
+
+  <section class="card contact">
+    <h2 style="justify-content:center">12. Contact</h2>
+    <p>Questions, requests, or concerns — we read everything:</p>
+    <p class="mail"><a href="mailto:michaelunkai@gmail.com">michaelunkai@gmail.com</a></p>
+    <p style="margin-top:6px">Michael Unkai · Publisher of Neon Flip</p>
+  </section>
+
+  <footer>
+    <div class="brand">Neon Flip</div>
+    <div>One touch. Flipped gravity. Pure neon.</div>
+    <div style="margin-top:6px">Privacy Policy · Last updated October 19, 2026</div>
+  </footer>
+
+</main>
+</body>
+</html>

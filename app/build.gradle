@@ -1,0 +1,31 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
+android {
+    namespace 'com.michaelunkai.neonflip'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.michaelunkai.neonflip"
+        minSdk 24; targetSdk 34; versionCode 1; versionName "1.0.0"
+    }
+    signingConfigs {
+        release {
+            def ks = rootProject.file("keystore/neonflip.keystore")
+            def props = rootProject.file("keystore/secrets.properties")
+            if (ks.exists() && props.exists()) {
+                def p = new Properties(); props.withInputStream { p.load(it) }
+                storeFile ks; storePassword p['STORE_PASSWORD']; keyAlias p['KEY_ALIAS']; keyPassword p['KEY_PASSWORD']
+            }
+        }
+    }
+    buildTypes {
+        release { minifyEnabled true; shrinkResources true; proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'; if (rootProject.file("keystore/neonflip.keystore").exists()) signingConfig signingConfigs.release }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    kotlinOptions { jvmTarget = '17' }
+    buildFeatures { buildConfig true }
+}
+dependencies {
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.gms:play-services-ads:23.2.0'
+    implementation 'com.android.billingclient:billing-ktx:7.0.0'
+}

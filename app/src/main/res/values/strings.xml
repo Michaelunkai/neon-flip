@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Neon Flip</string>
+
+    <!-- Menu -->
+    <string name="menu_tagline">flip gravity · ride the light</string>
+    <string name="menu_best">BEST %1$d</string>
+    <string name="menu_streak">STREAK %1$d</string>
+    <string name="menu_daily">DAILY</string>
+    <string name="menu_gift">GIFT</string>
+    <string name="menu_play">PLAY</string>
+    <string name="menu_shop">SHOP</string>
+    <string name="menu_ranks">RANKS</string>
+    <string name="menu_settings">SETTINGS</string>
+    <string name="menu_season">SEASON %1$d · %2$dd left · top %3$d</string>
+    <string name="menu_easing_on">assist mode active — go get that win</string>
+    <string name="quest_bullet">•</string>
+
+    <!-- Results -->
+    <string name="results_title">GAME OVER</string>
+    <string name="results_new_best">NEW BEST!</string>
+    <string name="results_beat_old">old best %1$d — crushed</string>
+    <string name="results_so_close">SO CLOSE! %1$d pts to beat %2$d</string>
+    <string name="results_best">BEST %1$d</string>
+    <string name="results_near">%1$d near</string>
+    <string name="results_bonus">MYSTERY BONUS +%1$d</string>
+    <string name="results_revive">REVIVE</string>
+    <string name="results_watch_ad">WATCH AD</string>
+    <string name="results_revived">already revived</string>
+    <string name="results_double">2X COINS</string>
+    <string name="results_doubled">doubled</string>
+    <string name="results_restart">RESTART</string>
+    <string name="results_menu">MENU</string>
+    <string name="coins_short">coins</string>
+
+    <!-- Shop -->
+    <string name="shop_title">SHOP</string>
+    <string name="shop_tab_skins">SKINS</string>
+    <string name="shop_tab_coins">COINS</string>
+    <string name="shop_tab_extras">EXTRAS</string>
+    <string name="shop_equipped">EQUIPPED</string>
+    <string name="shop_owned">OWNED</string>
+    <string name="shop_premium">PREMIUM · IAP</string>
+    <string name="shop_using">USING</string>
+    <string name="shop_use">USE</string>
+    <string name="shop_buy">BUY</string>
+    <string name="shop_themes">Themes</string>
+    <string name="shop_pack_small">SMALL COIN PACK</string>
+    <string name="shop_pack_med">MEGA COIN PACK</string>
+    <string name="shop_pack_large">ULTRA COIN PACK</string>
+    <string name="shop_vip">VIP MEMBERSHIP</string>
+    <string name="shop_vip_active">ACTIVE</string>
+    <string name="shop_remove_ads">REMOVE ADS</string>
+    <string name="shop_freeze">STREAK FREEZE</string>
+    <string name="shop_extras_note">ads support the lights. VIP turns them off forever.</string>
+    <string name="price_small">$0.99</string>
+    <string name="price_med">$2.99</string>
+    <string name="price_large">$4.99</string>
+    <string name="price_vip">$1.99 / month</string>
+    <string name="price_remove_ads">$2.99</string>
+
+    <!-- Ranks -->
+    <string name="ranks_title">RANKS</string>
+    <string name="ranks_season">SEASON %1$d · %2$d days left</string>
+    <string name="ranks_empty">no scores yet — go set the board on fire</string>
+    <string name="ranks_last_season">last season best %1$d</string>
+    <string name="ranks_share">SHARE SCORE</string>
+
+    <!-- Settings -->
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_music">Music</string>
+    <string name="settings_sfx">Sound effects</string>
+    <string name="settings_haptics">Vibration</string>
+    <string name="settings_notif">Streak reminders</string>
+    <string name="settings_notif_sub">tap to allow notifications</string>
+    <string name="settings_notif_on">notifications allowed</string>
+    <string name="settings_reset">RESET PROGRESS</string>
+    <string name="settings_reset_confirm">TAP AGAIN TO WIPE EVERYTHING</string>
+    <string name="settings_reset_sub">two taps to confirm</string>
+    <string name="settings_reset_sub2">no way back</string>
+    <string name="settings_stats">runs %1$d · best %2$d</string>
+    <string name="settings_credits">Neon Flip · made of pure canvas</string>
+
+    <!-- Pause -->
+    <string name="pause_title">PAUSED</string>
+    <string name="pause_resume">RESUME</string>
+    <string name="pause_restart">RESTART</string>
+    <string name="pause_menu">MENU</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Neon Flip retention</string>
+    <string name="notif_channel_desc">Streak saves and bonus refills</string>
+    <string name="notif_streak_title">Your %1$d-day streak is burning out</string>
+    <string name="notif_streak_body">One run keeps it alive. The corridor misses you.</string>
+    <string name="notif_bonus_title">A bonus is waiting</string>
+
+    <!-- Banners / toasts -->
+    <string name="banner_freeze_used">Streak freeze used — saved!</string>
+    <string name="banner_streak_broke">Streak broken. Start a new one today</string>
+    <string name="banner_quest_done">QUEST DONE: %1$s +%2$d</string>
+    <string name="banner_revived">REVIVED — shield up!</string>
+    <string name="banner_doubled">+%1$d bonus coins</string>
+    <string name="banner_skin_bought">Skin unlocked</string>
+    <string name="banner_theme_bought">Theme unlocked</string>
+    <string name="banner_freeze_bought">Streak freeze stocked</string>
+    <string name="banner_daily_claimed">DAILY +%1$d coins</string>
+    <string name="banner_gift_claimed">Comeback gift claimed</string>
+    <string name="banner_reset">Progress wiped</string>
+    <string name="banner_notif_on">Reminders enabled</string>
+
+    <!-- Errors / share -->
+    <string name="err_ad_unavailable">Ad not ready — try again in a moment</string>
+    <string name="err_not_enough_coins">Not enough coins</string>
+    <string name="err_store_unavailable">Store unavailable right now</string>
+    <string name="err_share">Could not share the card</string>
+    <string name="share_chooser">Share your Neon Flip score</string>
+    <string name="share_new_best">NEW PERSONAL BEST</string>
+    <string name="share_best">best %1$d</string>
+    <string name="share_coins">+%1$d coins collected</string>
+    <string name="share_footer">Can you beat me? · Neon Flip</string>
+</resources>

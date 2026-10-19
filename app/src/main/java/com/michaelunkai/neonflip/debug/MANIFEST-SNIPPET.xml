@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FOR THE BUILD AGENT: merge this <activity> entry into <application> in
+     app/src/main/AndroidManifest.xml. Debug-only, never exported.
+     (Also duplicated as a comment in DebugPanelActivity.kt.) -->
+<activity
+    android:name="com.michaelunkai.neonflip.debug.DebugPanelActivity"
+    android:exported="false"
+    android:screenOrientation="portrait" />
